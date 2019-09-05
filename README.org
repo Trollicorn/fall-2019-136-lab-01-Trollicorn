@@ -1,10 +1,10 @@
 * Fall 2019 - Lab 01
 
-* Name:
+* Name: Mohammed Uddin
 
-* GitHub username:
+* GitHub username: Trollicorn
 
-* Notes:
+* Notes: 
 
 * File structure:
  - 
