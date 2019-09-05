@@ -1,13 +1,4 @@
-/*
-Mohammed Uddin
-CS 135
-Lab 1A
-
-write a program that returns  the smallest of two given integers
-*/
-
 #include <iostream>
-using namespace std;
 
 int smaller(int a, int b){
 	//returns the smallest of two given integers
@@ -16,11 +7,11 @@ int smaller(int a, int b){
 
 
 int main(){
-	cout << "enter first number: ";
+	std::cout << "enter first number: ";
 	int a, b;
-	cin >> a;
-	cout << "enter second number: ";
-	cin >> b;
-	cout << endl << endl << "the smaller of the two is " << smaller(a,b) << endl;
+	std::cin >> a;
+	std::cout << "enter second number: ";
+	std::cin >> b;
+	std::cout << std::endl << "the smaller of the two is " << smaller(a,b) << std::endl;
 	return 0;
 }
